@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_NavigationView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation" />
+
+    <Button
+        android:id="@+id/bAccount"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/math_stat"
+        android:text="account"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_NavigationView1"
+        app:layout_constraintEnd_toStartOf="@+id/userprofile"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/bProutes"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/math_stat"
+        android:text="Previous Routes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/userprofile"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bAccount"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/bSroutes"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/math_stat"
+        android:text="Saved Routes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/userprofile"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bProutes"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/bComments"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/math_stat"
+
+        android:text="Comments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/userprofile"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSroutes"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <Button
+        android:id="@+id/bLogOut"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/math_stat"
+        android:text="LogOut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/userprofile"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/userprofile"
+        android:layout_width="277dp"
+        android:layout_height="671dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

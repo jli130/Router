@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Router_Route_Creation</string>
+    <string name="type1">Bus</string>
+    <string name="type2">Bus</string>
+    <string name="type3">Bus</string>
+    <string name="type4">Bus</string>
+    <string name="type5">Bus</string>
+    <string name="type6">Bus</string>
+    <string name="type7">Bus</string>
+    <string name="type8">Bus</string>
+
+
+    <string name="s1">From DownTown</string>
+    <string name="s2">From Theory</string>
+    <string name="s3">From CBC</string>
+    <string name="s4">From Schine</string>
+    <string name="s5">From Bird Library</string>
+    <string name="s6">From Skyler</string>
+    <string name="s7">From CST</string>
+    <string name="s8">From Erin Davis</string>
+
+
+    <string name="e1">To Theory</string>
+    <string name="e2">To Schine</string>
+    <string name="e3">To Bird Library</string>
+    <string name="e4">To Target</string>
+    <string name="e5">To DownTown</string>
+    <string name="e6">To Wegmans</string>
+    <string name="e7">To CBC</string>
+    <string name="e8">To Theory</string>
+
+    <string name="t1">8:00 – 8:15</string>
+    <string name="t2">9:30 – 9:40</string>
+    <string name="t3">12:44 – 13:00</string>
+    <string name="t4">7:33 – 7:54</string>
+    <string name="t5">16:21 – 16:33</string>
+    <string name="t6">19:55 – 20: 13</string>
+    <string name="t7">14:33 – 14:46</string>
+    <string name="t8">18:30 – 18:43</string>
+    <string name="startDest"></string>
+    <string name="endDest"></string>
+
+</resources>
